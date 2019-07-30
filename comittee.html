@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
+.w3-sidebar {
+  z-index: 3;
+  width: 250px;
+  top: 43px;
+  bottom: 0;
+  height: inherit;
+}
+
+table {
+  table-layout: fixed;
+  margin-top: 15px;
+  margin-bottom: 30px;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.sturdy td:nth-child(1){
+  width: 30%
+}
+.sturdy td:nth-child(2) {
+  width: 70%;
+}
+
+tr:hover {background-color:#f5f5f5;}
+
+</style>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-theme w3-top w3-left-align w3-large">
+    <a class="w3-bar-item w3-button w3-right w3-hide-large w3-hover-white w3-large w3-theme-l1" href="javascript:void(0)" onclick="w3_open()"><i class="fa fa-bars"></i></a>
+    <a href="index.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Home </a>
+    <a href="comittee.html" class="w3-bar-item w3-button w3-theme-l1">Comittee</a>
+    <a href="author.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Author Guideline</a>
+    <a href="program.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Program</a>
+
+  </div>
+</div>
+
+<!-- Main content: shift it to the right by 250 pixels when the sidebar is visible -->
+<div class="w3-main" style="margin-left:20px">
+
+  <div class="w3-row w3-padding-64">
+    <div class="w3-twothird w3-container">
+      <h1 class="w3-text-teal">1st ACM CoNEXT Workshop on Emerging in-Network Computing Paradigms (ENCP’19)</h1>
+      <h2 class="w3-text-teal" style="margin-top: 50px; margin-bottom: 20px">Organizing Committee</h2>
+
+      <h4><strong style="font-size:20px; margin-top:30px">Co-Chairs</strong></h4>
+      <table>
+          <tr>
+            <th>Name</th>
+            <th>Affiliation</th>
+          </tr>
+          <tr>
+            <td><a href="http://dirk-kutscher.info/">Dirk Kutscher</a></td>
+            <td>University of Applied Sciences Emden/Leer</td>
+          </tr>
+          <tr>
+            <td><a href="https://sites.google.com/site/spyridonmastorakis/">Spyridon Mastorakis</a></td>
+            <td>University of Nebraska Omaha</td>
+          </tr>
+          <tr>
+            <td><a href="https://www.cs.nmsu.edu/~amtibaa/">Abderrahmen Mtibaa</a></td>
+            <td>University of Missouri-St. Louis</td>
+          </tr>
+        </table>
+
+      <h4><strong style="font-size:20px; margin-top:30px">Steering Committee Members</strong></h4>
+      <table>
+      <tr>
+        <th>Name</th>
+        <th>Affiliation</th>
+      </tr>
+      <tr>
+        <td>Jon Crowcroft</td>
+        <td>University of Cambridge</td>
+      </tr>
+      <tr>
+        <td>Satyajayant (Jay) Misra</td>
+        <td>New Mexico State University</td>
+      </tr>
+      <tr>
+        <td>Dave Oran</td>
+        <td>Network Systems Research and Design</td>
+      </tr>
+      </table>
+
+      <h4><strong style="font-size:20px; margin-top:30px">TPC Members</strong></h4>
+      <table>
+        <tr>
+          <th>Name</th>
+          <th>Affiliation</th>
+        </tr>
+        <tr>
+          <td>Alexander Afanasyev</td>
+          <td>Florida International University</td>
+        </tr>
+        <tr>
+          <td>Mostafa Ammar</td>
+          <td>Georgia Tech</td>
+        </tr>
+        <tr>
+          <td>Lotfi Benmahmoud</td>
+          <td>National Institute of Standards and Technology</td>
+        </tr>
+        <tr>
+          <td>Jeff Burke</td>
+          <td>University of California, Los Angeles</td>
+        </tr>
+        <tr>
+          <td>Aaron Ding</td>
+          <td>Technical University of Delft, NL</td>
+        </tr>
+        <tr>
+          <td>Fred Douglis</td>
+          <td>Perspecta Labs</td>
+        </tr>
+        <tr>
+          <td>Serge Fdida</td>
+          <td>Sorbonne University</td>
+        </tr>
+        <tr>
+          <td>Dali Kaafar</td>
+          <td>Data61-CSIRO</td>
+        </tr>
+        <tr>
+          <td>Jussi Kangasharju</td>
+          <td>Helsinki University</td>
+        </tr>
+        <tr>
+          <td>Vinay Kolar</td>
+          <td>Cisco</td>
+        </tr>
+        <tr>
+          <td>Vasilis Maglaris</td>
+          <td>National Technical University of Athens</td>
+        </tr>
+        <tr>
+          <td>Evangelos Markatos</td>
+          <td>University of Crete and FORTH</td>
+        </tr>
+        <tr>
+          <td>Satyajayant (Jay) Misra</td>
+          <td>New Mexico State University</td>
+        </tr>
+        <tr>
+          <td>Marie-José Montpetit</td>
+          <td>Massachusetts Institute of Technology</td>
+        </tr>
+        <tr>
+          <td>Ravi Netravali</td>
+          <td>University of California, Los Angeles</td>
+        </tr>
+        <tr>
+          <td>Jörg Ott</td>
+          <td>Technical University of Munich</td>
+        </tr>
+        <tr>
+          <td>Yiannis Psaras</td>
+          <td>University College London</td>
+        </tr>
+        <tr>
+          <td>Taqi Raza</td>
+          <td>University of Arizona</td>
+        </tr>
+        <tr>
+          <td>Eve Schooler</td>
+          <td>Intel USA</td>
+        </tr>
+        <tr>
+          <td>Susmit Shannigrahi</td>
+          <td>Tennessee Tech University</td>
+        </tr>
+        <tr>
+          <td>Reza Tourani</td>
+          <td>Saint Louis University</td>
+        </tr>
+        <tr>
+          <td>Christian Tschudin</td>
+          <td>University of Basel</td>
+        </tr>
+        <tr>
+          <td>Eirini-Eleni Tsiropoulou</td>
+          <td>University of New Mexico</td>
+        </tr>
+        <tr>
+          <td>Klaus Wehrle</td>
+          <td>RWTH Aachen University</td>
+        </tr>
+        <tr>
+          <td>Mohamed-Faten Zhani</td>
+          <td>ÉTS</td>
+        </tr>
+      </table>
+
+      <h4><strong style="font-size:20px; margin-top:30px">Web Chair</strong></h4>
+      <table>
+      <tr>
+        <th>Name</th>
+        <th>Affiliation</th>
+      </tr>
+      <tr>
+        <td>Tianxiang Li</td>
+        <td>University of California, Los Angeles</td>
+      </tr>
+      </table>
+
+      <h4><strong style="font-size:20px; margin-top:30px">Publicity Chairs</strong></h4>
+      <table>
+      <tr>
+        <th>Name</th>
+        <th>Affiliation</th>
+      </tr>
+      <tr>
+        <td>Hila Ben Abraham</td>
+        <td>Washington University in St. Louis</td>
+      </tr>
+      <tr>
+        <td>Reza Tourani</td>
+        <td>Saint Louis University</td>
+      </tr>
+      </table>
+
+    </div>
+    <div class="w3-third w3-container" style="margin-top: 150px;">
+
+        <p class="w3-border w3-padding-large w3-padding-32 w3-left-align" style="background-color:rgb(117, 180, 231); width:300px;">
+            <font color="white" style="margin-left: 40px"><b>IMPORTANT DATES:</b></font>
+            <br>
+            <br>
+            <i class="fa fa-calendar-check-o fa-fw w3-margin-right"></i>
+            Paper Submission Deadline
+            </br>
+            <br>
+            <font color="white" style="margin-left: 45px">September 16, 2019</font>
+            </br>
+            <br>
+            <i class="fa fa-calendar-check-o fa-fw w3-margin-right"></i>
+            Acceptance Notification
+            </br>
+            <br>
+            <font color="white" style="margin-left: 45px">October 4, 2019</font>
+            </br>
+            <br>
+            <i class="fa fa-calendar-check-o fa-fw w3-margin-right"></i>
+            Camera-ready Deadline
+            </br>
+            <br>
+            <font color="white" style="margin-left: 45px">October 13, 2019</font>
+            </br>
+            <br>
+            <i class="fa fa-calendar-check-o fa-fw w3-margin-right"></i>
+            Workshop Date
+            </br>
+            <br>
+            <font color="white" style="margin-left: 45px">December 9-12, 2019</font>
+            </br>
+        </p>
+    </div>
+  </div>
+
+  <footer id="myFooter">
+    <div class="w3-container w3-theme-l2 w3-padding-32" style="margin-top: 60px">
+      <h6>1st ACM CoNEXT Workshop on Emerging in-Network Computing Paradigms (ENCP’19)</h6>
+    </div>
+  </footer>
+
+<!-- END MAIN -->
+</div>
+
+</body>
+</html>
