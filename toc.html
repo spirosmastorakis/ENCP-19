@@ -1,0 +1,192 @@
+
+<!doctype html>
+<head>
+<META http-equiv="Content-Style-Type" content="text/css">
+<title>ENCP '19- Proceedings of the 1st ACM CoNEXT Workshop on Emerging in-Network Computing Paradigms</title>
+<STYLE type="text/css">
+#DLtoc {
+	font: normal 12px/1.5em Arial, Helvetica, sans-serif;
+	}
+
+#DLheader {
+	}
+#DLheader h1 {
+	font-size:16px;	
+}
+	
+#DLcontent {
+	 font-size:12px;
+	}
+#DLcontent h2 {
+	 font-size:14px;
+	 margin-bottom:5px;
+	}
+#DLcontent h3 {
+	 font-size:12px;
+	 padding-left:20px;
+	 margin-bottom:0px;
+	}
+
+#DLcontent ul{
+	margin-top:0px;
+	margin-bottom:0px;
+	}
+		
+.DLauthors li{
+	display: inline;
+	list-style-type: none;
+	padding-right: 5px;
+	}
+	
+.DLauthors li:after{
+	content:",";
+	}
+.DLauthors li.nameList.Last:after{
+	content:"";
+	}		
+
+.DLabstract {
+	 padding-left:40px;
+	 padding-right:20px;
+	 display:block;
+	}
+
+.DLformats li{
+	display: inline;
+	list-style-type: none;
+	padding-right: 5px;
+	}
+	
+.DLformats li:after{
+	content:",";
+	}
+.DLformats li.formatList.Last:after{
+	content:"";
+	}		
+
+.DLlogo {
+	vertical-align:middle; 
+	padding-right:5px;
+	border:none;
+	}
+	
+.DLcitLink {
+	margin-left:20px;
+	}	
+
+.DLtitleLink {
+	margin-left:20px;
+	}	
+
+.DLotherLink {
+	margin-left:0px;
+	}		
+   
+</STYLE>
+</head>
+<body>
+<div id="DLtoc">
+<div id="DLheader">
+<h1>ENCP '19- Proceedings of the 1st ACM CoNEXT Workshop on Emerging in-Network Computing Paradigms</h1>
+<a class="DLcitLink" href="https://dl.acm.org/citation.cfm?id=3359993" title="Go to the ACM Digital Library for additional information about this proceeding"><img class="DLlogo" src="https://dl.acm.org/img/dllogo.png" alt="Digital Library logo" height="30" width="30">Full Citation in the ACM Digital Library</a>
+</div>
+<div id="DLcontent">
+<h2>SESSION: Network programmability</h2>
+<div class="DLabstract"> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N699175" title="Get the Full Text from the ACM Digital Library">Online Reprogrammable Multi Tenant Switches</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Johannes Krude</li>
+<li class="nameList">Jaco Hofmann</li>
+<li class="nameList">Matthias Eichholz</li>
+<li class="nameList">Klaus Wehrle</li>
+<li class="nameList">Andreas Koch</li>
+<li class="nameList Last">Mira Mezini</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Recent research shows many benefits for cloud workloads and network operations when putting software functionality onto switches. Sharing the physical resources of a programmable switch between multiple tenants and workloads enables the widespread deployment of on-switch software functionality. Currently, changing the program on a programmable switch incurs significant switch downtime, connectivity loss, and service interruption. We, therefore propose a modification to the common programmable switch architecture to enable hot-pluggability, the ability to insert, modify, and remove on-path software functionality without interrupting the network operation. With hot-pluggability, a programmable switch can be shared between applications of different on-switch lifetime and therefore also between different tenants. Such sharing requires performance and program isolation between different on-switch functions and tenants. Our proposal makes on-switch software functionality deployable within production networks and enables programmable switches to be offered as a service to multiple tenants within cloud and ISP networks.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N699176" title="Get the Full Text from the ACM Digital Library">Offloading Virtual Evolved Packet Gateway User Plane Functions to a Programmable ASIC</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Suneet Kumar Singh</li>
+<li class="nameList">Christian Esteve Rothenberg</li>
+<li class="nameList">Gyanesh Patra</li>
+<li class="nameList Last">Gergely Pongracz</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Roll-outs of 5G Mobile Packet Core (MPC) rely on principles and technologies of Software-Defined Networking (SDN) and Network Function Virtualization (NFV). While the benefits of SDN and NFV in terms of flexibility are well-known, how to guarantee data plane performance for critical 5G services is less clear. Advances in programmable switch ASICs render an opportunity to offload data plane virtual network functions (VNFs) running on x86 servers to programmable hardware featuring strict performance guarantees. In this work, we present the design and performance evaluation of a critical element of 5G MPC, namely the virtual Evolved Packet Gateway (vEPG). We describe the P4-based uplink and downlink pipelines and evaluate a software and hardware implementation based on a Barefoot Tofino hardware switch, the ONOS controller, and P4Runtime support to manage match-action tables. The obtained results show that vEPG hardware implementation runs at line rate with low latency (&lt;2 &mu;s) and jitter, scaling up to 1.7 millions active users.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N699177" title="Get the Full Text from the ACM Digital Library">Towards Executing Computer Vision Functionality on Programmable Network Devices</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Ren&#233; Glebke</li>
+<li class="nameList">Johannes Krude</li>
+<li class="nameList">Ike Kunze</li>
+<li class="nameList">Jan R&#252;th</li>
+<li class="nameList">Felix Senger</li>
+<li class="nameList Last">Klaus Wehrle</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>By offering the possibility to already perform processing as packets traverse the network, programmable data planes open up new perspectives for applications suffering from strict latency and high bandwidth requirements. Real-time Computer Vision (CV), with its high data rates and often mission- and safety-critical roles in the control of autonomous vehicles and industrial machinery, could particularly benefit from executing parts of its logic within network elements.</p> <p>In this paper, we thus explore what it takes to bring CV to the network. We present our work-in-progress efforts of implementing a line-following algorithm based on convolution filters on a P4-programmable NIC. We find that by appropriately identifying regions of interest in the image data and by diligently distributing the necessary calculations among the various match/action stages of the ingress- and egress pipelines of the NIC, our prototypical implementation can achieve over 19 decisions per second on 640x480 px grayscale images with filters large enough to guide a small autonomous car through various courses.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N699178" title="Get the Full Text from the ACM Digital Library">P4-InTel: Bridging the Gap between iCF Diagnosis and Functionality</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Lucas Castanheira</li>
+<li class="nameList">Alberto Schaeffer-Filho</li>
+<li class="nameList Last">Theophilus A. Benson</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Data plane programmability promotes a new kind of computing paradigm in which parts of an application's execution can be offloaded into the network. However, this in-network compute functionality (iCF) adds an extra layer of management complexity for the tracing and debugging of distributed applications. Specifically, current programmable hardware does not provide powerful enough primitives or abstractions to enable in-network tracing. Further, existing distributed application debug solutions do not extend directly into programmable data planes.</p> <p>In this paper, we take a step back and revisit the fundamental problem by discussing open research questions and challenges towards a comprehensive iCF telemetry and debugging solution which bridges the gap between traditional and iCF-based debugging. To this end, we introduce a system, P4-InTel, which (i) leverages network telemetry to instrument PDPs into monitoring arbitrary trace data, indicated directly on PDP source code using annotations, and (ii) collects and encapsulates this data in a tracing abstraction. This abstraction provides a global vision of an in-network computation's life-cycle in a standard, readable format, which can either be fed to automatic debugging tools, or used by programmers to facilitate troubleshooting.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N699179" title="Get the Full Text from the ACM Digital Library">Partition-Aware Packet Steering Using XDP and eBPF for Improving Application-Level Parallelism</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Pekka Enberg</li>
+<li class="nameList">Ashwin Rao</li>
+<li class="nameList Last">Sasu Tarkoma</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>A single CPU core is not fast enough to process packets arriving from the network on commodity NICs. Applications are therefore turning to application-level partitioning and NIC offload to exploit parallelism on multicore systems and relieve the CPU. Although NIC offload techniques are not new, programmable NICs have emerged as a way for custom packet processing offload. However, it is not clear what parts of the application should be offloaded to a programmable NIC for improving parallelism.</p> <p>We propose an approach that combines application-level partitioning and packet steering with a programmable NIC. Applications partition data in DRAM between CPU cores, and steer requests to the correct core by parsing L7 packet headers on a programmable NIC. This approach improves request-level parallelism but keeps the partitioning scheme transparent to clients. We believe this approach can reduce latency and improve throughput because it utilizes multicore systems efficiently, and applications can improve partitioning scheme without impacting clients.</p></div> </div>
+<h2>SESSION: In-network computing architectures and protocols</h2>
+<div class="DLabstract"> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N699170" title="Get the Full Text from the ACM Digital Library">Execution Plans for Serverless Computing in Information Centric Networking</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Christopher Scherb</li>
+<li class="nameList">Claudio Marxer</li>
+<li class="nameList Last">Christian Tschudin</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Information Centric Networking (ICN) is a modern networking concept which enables users to address named data directly by their name, without knowing the location where the data is stored. Since requesting static data is only a special case of requesting processed data, Named Function Networking (NFN) is a generalization of ICN by providing the possibility to define how data should be processed before they are delivered. Thereby, the network decides, where to process the data. The decision where to process data is crucial for the performance and the load on the network, especially when NFN is used within a data center. In this paper we discuss how NFN forwarding decisions can be improved and how to plan an execution of a computation in a name-based network to improve the execution performance. A plan is a list of instruction how and where to execute a computation. To create a plan, the network finds the best way to execute a computation regarding to a predefined metric. Furthermore, we present an extension for reusing plans and creating templates.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N699171" title="Get the Full Text from the ACM Digital Library">Edge Data Repositories - The design of a store-process-send system at the Edge</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Adrian-Cristian Nicolaescu</li>
+<li class="nameList">Onur Ascigil</li>
+<li class="nameList Last">Ioannis Psaras</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>The Edge of the Internet is currently accommodating large numbers of devices and these numbers will dramatically increase with the advancement of technology. Edge devices and their associated service bandwidth requirements are predicted to become a major problem in the near future. As a result, the popularity of data management, analysis and processing at the edges is also increasing. This paper proposes Edge Data Repositories and their performance analysis. In this context, provide a service quality and resource allocation feedback algorithm for the processing and storage capabilities of Edge Data Repositories. A suitable simulation environment was created for this system, with the help of the ONE Simulator. The simulations were further used to evaluate the Edge Data Repository cluster within different scenarios, providing a range of service models. From there, with the help and adaptation of a few basic networks management concepts, the feedback algorithm was developed. As an initial step, we assess and provide measurable performance feedback for the most essential parts of our envisioned system: network metrics and service and resource status, through this algorithm.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N699172" title="Get the Full Text from the ACM Digital Library">Trigger-Action Computing in Local Broadcast Beaconing Networks</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Teemu K&#228;rkk&#228;inen</li>
+<li class="nameList">L. Fuchsloch</li>
+<li class="nameList Last">J&#246;rg Ott</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Computational elements---often in the form of microcontrollers---are increasingly embedded in and controlling the appliances that we use and the environments in which we live. In typical deployments a set of these elements, connected by an infrastructure network, comprises a distributed system under a cloud or edge based control. This introduces a number of inefficiencies: 1) cloud servers and edge gateways are points of indirection that increase latencies over direct interactions, 2) infrastructure networks incur monetary costs for the equipment, as well as energy and complexity costs, and 3) the resulting systems tend to be centralized and siloed, reducing their ability to interact, interoperate and share resources. As one possible way to solve these problems, we propose and evaluate a system integrating the trigger-action model of computing and highly constrained local broadcast beaconing based networking (e.g., Bluetooth LE, LoRa, VLC). The system requires no gateways or servers, minimizes inter-device latencies, and enables dynamic instantiation of local services by orchestrating nearby devices via trigger-action programs.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N699173" title="Get the Full Text from the ACM Digital Library">INCA: An Architecture for In-Network Computing</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Abdulazaz Ali Albalawi</li>
+<li class="nameList">Asit Chakraborti</li>
+<li class="nameList">Cedric Westphal</li>
+<li class="nameList">Dirk Kutscher</li>
+<li class="nameList">Jeffrey He</li>
+<li class="nameList Last">Quinton Hoole</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>We present some results on integrating computing with networking so as to optimize the placement of workloads within a distributed network. We describe INCA, an In-Network Computing Architecture that allows clients to request functions that are then instantiated at a place within the network that attempts to meet both the QoE constraints of the application and the incentives of the operator of the network. We have implemented INCA, including network monitoring capability as well as a function placement optimization capability. In our evaluation, INCA demonstrates the benefit of a joint optimization of the networking and computing aspects.</p></div> </div>
+</div>
+</div>
+</body>
+</html>
